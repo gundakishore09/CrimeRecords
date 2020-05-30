@@ -10,73 +10,97 @@
 
   <properties>
       <!-- This property will be set by the Maven Dependency plugin -->
-      <annotatedJdk>${org.checkerframework:jdk8:jar}</annotatedJdk>
-	  <maven-compiler-plugin-version>2.3.2</maven-compiler-plugin-version>
+        <annotatedJdk>${org.checkerframework:jdk8:jar}</annotatedJdk>
+        <maven-compiler-plugin-version>2.3.2</maven-compiler-plugin-version>
+	<project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
   </properties>
 
+  <modules>
+    <module>CrimeRecords</module>
+    <!--<module>webapp</module> -->
+  </modules>
+
   <dependencies>
+    <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>servlet-api</artifactId>
+        <version>2.5</version>
+      </dependency>
+
+      <dependency>
+        <groupId>javax.servlet.jsp</groupId>
+        <artifactId>jsp-api</artifactId>
+        <version>2.2</version>
+      </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+
     <dependency>
         <groupId>org.checkerframework</groupId>
         <artifactId>checker</artifactId>
         <version>1.9.4</version>
     </dependency>
+
     <dependency>
         <groupId>org.checkerframework</groupId>
         <artifactId>checker-qual</artifactId>
         <version>1.9.4</version>
     </dependency>
+
     <dependency>
         <groupId>org.checkerframework</groupId>
         <artifactId>jdk8</artifactId>
         <version>1.9.4</version>
     </dependency>
+
   </dependencies>
+
   <build>
     <plugins>
       <plugin>
-	<groupId>org.codehaus.mojo</groupId>
-	<artifactId>exec-maven-plugin</artifactId>
-	<version>1.2.1</version>
-	<executions>
-	  <execution>
-	    <goals>
-	      <goal>java</goal>
-	    </goals>
-	  </execution>
-	</executions>
-	<configuration>
-	  <mainClass>connection.DataCon</mainClass>
-	  <arguments>
-	    <argument>argument1</argument>
-	  </arguments>
-	</configuration>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>1.2.1</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>java</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <mainClass>connection.DataCon</mainClass>
+          <arguments>
+            <argument>argument1</argument>
+          </arguments>
+        </configuration>
       </plugin>
 
       <plugin>
-	<groupId>org.apache.maven.plugins</groupId>
-	<artifactId>maven-shade-plugin</artifactId>
-	<version>2.1</version>
-	<executions>
-	  <execution>
-	    <phase>package</phase>
-	    <goals>
-	      <goal>shade</goal>
-	    </goals>
-	    <configuration>
-	      <transformers>
-		<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-		  <mainClass>connection.DataCon</mainClass>
-		</transformer>
-	      </transformers>
-	    </configuration>
-	  </execution>
-	</executions>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>2.1</version>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+            <configuration>
+              <transformers>
+                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                  <mainClass>connection.DataCon</mainClass>
+                </transformer>
+              </transformers>
+            </configuration>
+          </execution>
+        </executions>
       </plugin>
       <plugin>
           <!-- This plugin will set the properties values using dependency information -->
@@ -93,10 +117,10 @@
       </plugin>
       <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
-		  <version>${maven-compiler-plugin-version}</version>
+                  <version>${maven-compiler-plugin-version}</version>
           <configuration>
-              <source>1.8</source>
-              <target>1.8</target>
+              <source>1.6</source>
+              <target>1.6</target>
               <fork>true</fork>
               <!-- Add all the checkers you want to enable here -->
               <annotationProcessors>
@@ -108,12 +132,12 @@
               </compilerArgs>
           </configuration>
       </plugin>
-	  <plugin>            
+          <plugin>
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-war-plugin</artifactId>
   <version>3.2.3</version>
   <configuration>
-    <webXml>CrimeRecords\WEB-INF\web.xml</webXml>        
+    <webXml>CrimeRecords\WEB-INF\web.xml</webXml>
   </configuration>
 </plugin>
     </plugins>

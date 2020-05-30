@@ -1,2 +1,3 @@
-# CrimeRecords
-Structs_Web_Project
+# maven-project
+
+Simple Maven Project

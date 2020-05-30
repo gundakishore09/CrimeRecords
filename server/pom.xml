@@ -19,12 +19,12 @@
     <finalName>${project.artifactId}</finalName>
   </build>
 
-  <dependencies>
+  <!-- <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit-dep</artifactId>
       <scope>test</scope>
-    </dependency>
+    </dependency> 
 
     <dependency>
       <groupId>org.hamcrest</groupId>
@@ -42,7 +42,7 @@
       <groupId>org.mockito</groupId>
       <artifactId>mockito-core</artifactId>
       <scope>test</scope>
-    </dependency>
-  </dependencies>
+    </dependency> 
+  </dependencies> -->
 
 </project>

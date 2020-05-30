@@ -1,0 +1,144 @@
+========== Description Part Begin ==========
+Title = Normal
+ProgID = PageletServer.DynamicMenu
+LastUpdateTime = 38222.491921296
+PreviewPath = 
+Description = 
+========== Description Part End ==========
+
+========== Parameter Part Begin ==========
+MenuItem0_3 = 1;CHARGESHEET;left;middle;;;-1;-1;0;normal;0;13555414;false;8650752;false;;1;-1;-1;;;-1;-1;0;;;_self;Arial;9;0;normal;normal;none;Arial;9;16777215;normal;normal;none;0;solid;13555414;13555414;13555414;13555414;13555414;13555414;13555414;13555414;0;1;;1;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;;tiled;tiled;0;;;;;;;
+MenuItem3_0 = 0;Investigation Master;left;middle;;;-1;-1;0;normal;0;13555414;false;13421772;false;;1;-1;-1;;;-1;-1;0;;investigationt_master.jsp;_self;Arial;8;0;bold;normal;none;Arial;8;16777215;bold;normal;none;1;solid;13555414;13555414;13555414;13555414;13555414;13555414;13555414;13555414;0;1;;1;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;tiled;tiled;1;;;;;;;
+MenuItem2_1 = 0;Crime Category Nature Master;left;middle;;;-1;-1;0;normal;0;16777215;false;13421772;false;;1;-1;-1;;;-1;-1;0;;crime_category_nature_master.jsp;_self;Arial;8;0;bold;normal;none;Arial;8;0;normal;normal;none;1;solid;13421772;13421772;10066329;10066329;13421772;13421772;10066329;10066329;1;1;;1;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp4.gif;tiled;tiled;1;;;;;;;
+MenuItem1_2 = 0;Department Employee Master;left;middle;;;-1;-1;0;normal;0;13555414;false;13421772;false;;1;-1;-1;;;-1;-1;0;;Department_emp_master.jsp;_self;Arial;8;0;bold;normal;none;Arial;8;16777215;bold;normal;none;1;solid;13555414;13555414;13555414;13555414;13555414;13555414;13555414;13555414;0;1;;1;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;tiled;tiled;1;;;;;;;
+MenuBody0 = 7;auto;0;0;horizontally;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\arrow_r.gif;7;7;1;4;16777215;true;;tiled;16777215;0;none;0;Normal;50;true;1;16777215;16777215;16777215;1;10066329;0;simple;;;;;;;;;;;
+MenuItem0_4 = 1;SECURITY;left;middle;;;-1;-1;0;normal;0;13555414;false;13421772;false;;1;-1;-1;;;-1;-1;0;;;_self;Arial;8;0;bold;normal;none;Arial;9;16777215;normal;normal;none;1;solid;13555414;13555414;13555414;13555414;13555414;13555414;13555414;13555414;0;1;;1;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;tiled;tiled;1;;;;;;;
+MenuItem4_0 = 0;Crime Charge Sheet Master;left;middle;;;-1;-1;0;normal;0;13555414;false;13421772;false;;1;-1;-1;;;-1;-1;0;;crime_chargesheet_master.jsp;_self;Arial;9;0;normal;normal;none;Arial;8;16777215;bold;normal;none;1;solid;13555414;13555414;13555414;13555414;13555414;13555414;13555414;13555414;1;1;;1;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;tiled;tiled;1;;;;;;;
+MenuItem3_1 = 0;Crime Sequence Estimation Master;left;middle;;;-1;-1;0;normal;0;13555414;false;13421772;false;;1;-1;-1;;;-1;-1;0;;crime_seq_est_master.jsp;_self;Arial;8;0;bold;normal;none;Arial;8;16777215;bold;normal;none;0;solid;13555414;13555414;13555414;13555414;13555414;13555414;13555414;13555414;0;1;;1;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;;tiled;tiled;0;;;;;;;
+MenuItem2_2 = 0;Victims Master;left;middle;;;-1;-1;0;normal;0;13421772;false;13421772;false;;1;-1;-1;;;-1;-1;0;;victim_master.jsp;_self;Arial;8;0;bold;normal;none;Arial;8;0;normal;normal;none;1;solid;13421772;13421772;10066329;10066329;13421772;13421772;10066329;10066329;1;1;;1;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp4.gif;tiled;tiled;1;;;;;;;
+MenuItem1_3 = 0;Police Station Master;left;middle;;;-1;-1;0;normal;0;13555414;false;13421772;false;;1;-1;-1;;;-1;-1;0;;police_station_master.jsp;_self;Arial;8;0;bold;normal;none;Arial;8;16777215;bold;normal;none;1;solid;13555414;13555414;13555414;13555414;13555414;13555414;13555414;13555414;0;1;;1;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;tiled;tiled;1;;;;;;;
+MenuBody1 = 4;auto;0;0;vertically;C:\PROGRA~1\SOURCE~1\SOTHIN~1\Resource\arrow_r.gif;7;7;0;3;16777215;false;;tiled;0;1;solid;0;Normal;50;true;0;0;0;0;0;8355711;0;none;;;;;;;;;;;
+MenuItem0_5 = 0;HOMEPAGE;left;middle;;;-1;-1;0;normal;0;13555414;false;13421772;false;;1;-1;-1;;;-1;-1;0;;adminzone.jsp;_self;Arial;8;0;bold;normal;none;Arial;9;16777215;normal;normal;none;0;solid;13555414;13555414;13555414;13555414;13555414;13555414;13555414;13555414;0;1;;1;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;tiled;tiled;0;;;;;;;
+MenuItem5_0 = 0;Login Master;left;middle;;;-1;-1;0;normal;0;13555414;false;13421772;false;;1;-1;-1;;;-1;-1;0;;login_master.jsp;_self;Arial;9;0;normal;normal;none;Arial;9;16777215;normal;normal;none;0;solid;13555414;13555414;13555414;13555414;13555414;13555414;13555414;13555414;0;1;;1;;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;tiled;tiled;0;;;;;;;
+MenuItem3_2 = 0;Crime Witness Master;left;middle;;;-1;-1;0;normal;0;13555414;false;13421772;false;;1;-1;-1;;;-1;-1;0;;crime_witness_master.jsp;_self;Arial;8;0;bold;normal;none;Arial;9;16777215;normal;normal;none;1;solid;13555414;13555414;13555414;13555414;13555414;13555414;13555414;13555414;0;1;;1;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;tiled;tiled;1;;;;;;;
+MenuItem2_3 = 0;Victims FIR Master;left;middle;;;-1;-1;0;normal;0;13555414;false;16777215;false;;1;-1;-1;;;-1;-1;0;;victims_fir_master.jsp;_self;Arial;9;0;normal;normal;none;Arial;9;16777215;normal;normal;none;1;solid;13555414;13555414;13555414;13555414;13555414;13555414;13555414;13555414;1;1;;1;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;tiled;tiled;1;;;;;;;
+MenuBody2 = 4;down;-2;0;vertically;C:\PROGRA~1\SOURCE~1\SOTHIN~1\arrow_r.gif;7;7;1;4;16777215;true;;tiled;0;0;solid;0;Horizontal blinds;29;true;0;0;0;0;1;10066329;0;simple;;;;;;;;;;;
+MenuItem0_6 = 0;LOGOUT;left;middle;;;-1;-1;0;normal;0;13555414;false;13421772;false;;1;-1;-1;;;-1;-1;0;;index.jsp;_self;Arial;8;0;bold;normal;none;Arial;8;16777215;bold;normal;none;0;solid;13555414;13555414;13555414;13555414;13555414;13555414;13555414;13555414;0;1;;1;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;tiled;tiled;0;;;;;;;
+MenuItem3_3 = 0;Evidence Type Master;left;middle;;;-1;-1;0;normal;0;13555414;false;13421772;false;;1;-1;-1;;;-1;-1;0;;evidence_type_master.jsp;_self;Arial;8;0;bold;normal;none;Arial;9;16777215;normal;normal;none;1;solid;13555414;13555414;13555414;13555414;13555414;13555414;13555414;13555414;0;1;;1;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;tiled;tiled;1;;;;;;;
+MenuBody3 = 5;auto;0;0;vertically;C:\PROGRA~1\SOURCE~1\SOTHIN~1\Resource\arrow_r.gif;7;7;0;3;16777215;false;;tiled;0;1;solid;0;Normal;50;true;0;0;0;0;0;8355711;0;none;;;;;;;;;;;
+MenuBody4 = 1;auto;0;0;vertically;C:\PROGRA~1\SOURCE~1\SOTHIN~1\Resource\arrow_r.gif;7;7;0;3;16777215;false;;tiled;0;1;solid;0;Normal;50;true;0;0;0;0;0;8355711;0;none;;;;;;;;;;;
+MenuItem3_4 = 0;Evidence Master;left;middle;;;-1;-1;0;normal;0;13555414;false;13421772;false;;1;-1;-1;;;-1;-1;0;;evidence_master.jsp;_self;Arial;9;0;normal;normal;none;Arial;9;16777215;normal;normal;none;1;solid;13555414;13555414;13555414;13555414;13555414;13555414;13555414;13555414;0;1;;1;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;tiled;tiled;1;;;;;;;
+MenuBody5 = 1;auto;0;0;vertically;C:\PROGRA~1\SOURCE~1\SOTHIN~1\Resource\arrow_r.gif;7;7;0;3;16777215;false;;tiled;0;1;solid;0;Normal;50;true;0;0;0;0;0;8355711;0;none;;;;;;;;;;;
+TopMenuBody = ivvnair;static;0;0;none;false;true;310;1000;;;;;;
+MenuItem0_0 = 1;DEPARTMENT;left;middle;;;-1;-1;0;normal;0;16777215;false;16777215;true;;1;-1;-1;;;-1;-1;0;;Department_master.jsp;_self;Arial;8;3355443;bold;normal;none;Arial;8;0;bold;normal;none;1;solid;13421772;13421772;11047062;11047062;13421772;13421772;11047062;11047062;1;1;;1;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp4.gif;tiled;tiled;1;;;;;;;
+MenuItem0_1 = 1;CRIME                   ;left;middle;;;-1;-1;0;normal;0;16777215;true;16777215;true;;1;-1;-1;;;-1;-1;0;;;_self;Arial;8;3355443;bold;normal;none;Arial;8;0;bold;normal;none;1;solid;13421772;13421772;10066329;10066329;13421772;13421772;10066329;10066329;1;1;;1;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp4.gif;tiled;tiled;1;;;;;;;
+MenuItem1_0 = 0;Designation Master;left;middle;;;-1;-1;0;normal;0;13555414;false;13421772;false;;1;-1;-1;;;-1;-1;0;;Designation_master.jsp;_self;Arial;9;0;normal;normal;none;Arial;9;16777215;normal;normal;none;1;solid;13555414;13555414;13555414;13555414;13555414;13555414;13555414;13555414;0;1;;1;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;tiled;tiled;1;;;;;;;
+MenuItem0_2 = 1;INVESTIGATION                  ;left;middle;;;-1;-1;0;normal;0;16777215;true;16777215;true;;1;-1;-1;;;-1;-1;0;;;_self;Arial;8;3355443;bold;normal;none;Arial;8;0;bold;normal;none;1;solid;13421772;13421772;10066329;10066329;13421772;13421772;10066329;10066329;1;1;;1;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp4.gif;tiled;tiled;1;;;;;;;
+MenuItem2_0 = 0;Crime Category Master;left;middle;;;-1;-1;0;normal;0;16777215;false;16777215;true;;1;-1;-1;;;-1;-1;0;;crime_category_master.jsp;_self;Arial;8;0;bold;normal;none;Arial;8;0;normal;normal;none;1;solid;13421772;13421772;10066329;10066329;13421772;13421772;10066329;10066329;1;1;;1;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp4.gif;tiled;tiled;1;;;;;;;
+MenuItem1_1 = 0;Department Master;left;middle;;;-1;-1;0;normal;0;13555414;false;13421772;false;;1;-1;-1;;;-1;-1;0;;;_self;Arial;8;0;bold;normal;none;Arial;9;16777215;normal;normal;none;1;solid;13555414;13555414;13555414;13555414;13555414;13555414;13555414;13555414;0;1;;1;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\xp3.gif;tiled;tiled;1;;;;;;;
+========== Parameter Part End ==========
+
+========== Resource Part Begin ==========
+Resource Number = 44
+stm31.js=C:\PROGRA~1\SOURCE~1\SOTHIN~1\Resource\=
+blank.gif=C:\PROGRA~1\SOURCE~1\SOTHIN~1\Resource\=
+arrow_r.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp4.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp4.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp4.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp4.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp4.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp4.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+xp3.gif=\\Nit7\c$\Tomcat5\jakarta-tomcat-5\dist\webapps\policecrime\=
+========== Resource Part End ==========
+
+========== HTML Part Begin ==========
+Segment Number = 2
+Segment Position = script
+<script type="text/javascript" language="JavaScript1.2">
+<!--
+var st_path="";
+var st_lib="stm31.js";
+document.open();
+document.write("<"+"script type='text/javascript' language='JavaScript1.2' src='"+st_path+st_lib+"'><"+"/script>");
+document.close();
+//-->
+</script>===== Segment End =====
+Segment Position = cursor
+<script type="text/javascript" language="JavaScript1.2">
+<!--
+beginSTM("ivvnair","static","0","0","none","false","true","310","1000");
+beginSTMB("auto","0","0","horizontally","arrow_r.gif","7","7","1","4","transparent","","tiled","#ffffff","0","none","0","Normal","50","0","0","7","7","0","0","1","#999999","false","#ffffff","#ffffff","#ffffff","simple");
+appendSTMI("false","DEPARTMENT","left","middle","","","-1","-1","0","normal","#ffffff","transparent","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","Department_master.jsp","_self","Arial","8pt","#333333","bold","normal","none","Arial","8pt","#000000","bold","normal","none","1","solid","#cccccc","#cccccc","#9690a8","#9690a8","#cccccc","#cccccc","#9690a8","#9690a8","Department_master.jsp","xp3.gif","xp4.gif","tiled","tiled");
+beginSTMB("auto","0","0","vertically","arrow_r.gif","0","0","0","3","#ffffff","","tiled","#000000","1","solid","0","Normal","50","0","0","0","0","0","0","0","#7f7f7f","false","#000000","#000000","#000000","none");
+appendSTMI("false","Designation&nbsp;Master","left","middle","","","-1","-1","0","normal","#d6d6ce","#cccccc","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","Designation_master.jsp","_self","Arial","9pt","#000000","normal","normal","none","Arial","9pt","#ffffff","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","Designation_master.jsp","xp3.gif","xp3.gif","tiled","tiled");
+appendSTMI("false","Department&nbsp;Master","left","middle","","","-1","-1","0","normal","#d6d6ce","#cccccc","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","","_self","Arial","8pt","#000000","bold","normal","none","Arial","9pt","#ffffff","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","","xp3.gif","xp3.gif","tiled","tiled");
+appendSTMI("false","Department&nbsp;Employee&nbsp;Master","left","middle","","","-1","-1","0","normal","#d6d6ce","#cccccc","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","Department_emp_master.jsp","_self","Arial","8pt","#000000","bold","normal","none","Arial","8pt","#ffffff","bold","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","Department_emp_master.jsp","xp3.gif","xp3.gif","tiled","tiled");
+appendSTMI("false","Police&nbsp;Station&nbsp;Master","left","middle","","","-1","-1","0","normal","#d6d6ce","#cccccc","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","police_station_master.jsp","_self","Arial","8pt","#000000","bold","normal","none","Arial","8pt","#ffffff","bold","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","police_station_master.jsp","xp3.gif","xp3.gif","tiled","tiled");
+endSTMB();
+appendSTMI("false","CRIME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;","left","middle","","","-1","-1","0","normal","transparent","transparent","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","","_self","Arial","8pt","#333333","bold","normal","none","Arial","8pt","#000000","bold","normal","none","1","solid","#cccccc","#cccccc","#999999","#999999","#cccccc","#cccccc","#999999","#999999","","xp3.gif","xp4.gif","tiled","tiled");
+beginSTMB("down","-2","0","vertically","arrow_r.gif","0","0","1","4","transparent","","tiled","#000000","0","solid","0","Horizontal blinds","29","0","0","0","0","0","0","1","#999999","false","#000000","#000000","#000000","simple");
+appendSTMI("false","Crime&nbsp;Category&nbsp;Master","left","middle","","","-1","-1","0","normal","#ffffff","transparent","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","crime_category_master.jsp","_self","Arial","8pt","#000000","bold","normal","none","Arial","8pt","#000000","normal","normal","none","1","solid","#cccccc","#cccccc","#999999","#999999","#cccccc","#cccccc","#999999","#999999","crime_category_master.jsp","xp3.gif","xp4.gif","tiled","tiled");
+appendSTMI("false","Crime&nbsp;Category&nbsp;Nature&nbsp;Master","left","middle","","","-1","-1","0","normal","#ffffff","#cccccc","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","crime_category_nature_master.jsp","_self","Arial","8pt","#000000","bold","normal","none","Arial","8pt","#000000","normal","normal","none","1","solid","#cccccc","#cccccc","#999999","#999999","#cccccc","#cccccc","#999999","#999999","crime_category_nature_master.jsp","xp3.gif","xp4.gif","tiled","tiled");
+appendSTMI("false","Victims&nbsp;Master","left","middle","","","-1","-1","0","normal","#cccccc","#cccccc","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","victim_master.jsp","_self","Arial","8pt","#000000","bold","normal","none","Arial","8pt","#000000","normal","normal","none","1","solid","#cccccc","#cccccc","#999999","#999999","#cccccc","#cccccc","#999999","#999999","victim_master.jsp","xp3.gif","xp4.gif","tiled","tiled");
+appendSTMI("false","Victims&nbsp;FIR&nbsp;Master","left","middle","","","-1","-1","0","normal","#d6d6ce","#ffffff","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","victims_fir_master.jsp","_self","Arial","9pt","#000000","normal","normal","none","Arial","9pt","#ffffff","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","victims_fir_master.jsp","xp3.gif","xp3.gif","tiled","tiled");
+endSTMB();
+appendSTMI("false","INVESTIGATION&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;","left","middle","","","-1","-1","0","normal","transparent","transparent","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","","_self","Arial","8pt","#333333","bold","normal","none","Arial","8pt","#000000","bold","normal","none","1","solid","#cccccc","#cccccc","#999999","#999999","#cccccc","#cccccc","#999999","#999999","","xp3.gif","xp4.gif","tiled","tiled");
+beginSTMB("auto","0","0","vertically","arrow_r.gif","0","0","0","3","#ffffff","","tiled","#000000","1","solid","0","Normal","50","0","0","0","0","0","0","0","#7f7f7f","false","#000000","#000000","#000000","none");
+appendSTMI("false","Investigation&nbsp;Master","left","middle","","","-1","-1","0","normal","#d6d6ce","#cccccc","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","investigationt_master.jsp","_self","Arial","8pt","#000000","bold","normal","none","Arial","8pt","#ffffff","bold","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","investigationt_master.jsp","xp3.gif","xp3.gif","tiled","tiled");
+appendSTMI("false","Crime&nbsp;Sequence&nbsp;Estimation&nbsp;Master","left","middle","","","-1","-1","0","normal","#d6d6ce","#cccccc","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","crime_seq_est_master.jsp","_self","Arial","8pt","#000000","bold","normal","none","Arial","8pt","#ffffff","bold","normal","none","0","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","crime_seq_est_master.jsp","xp3.gif","blank.gif","tiled","tiled");
+appendSTMI("false","Crime&nbsp;Witness&nbsp;Master","left","middle","","","-1","-1","0","normal","#d6d6ce","#cccccc","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","crime_witness_master.jsp","_self","Arial","8pt","#000000","bold","normal","none","Arial","9pt","#ffffff","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","crime_witness_master.jsp","xp3.gif","xp3.gif","tiled","tiled");
+appendSTMI("false","Evidence&nbsp;Type&nbsp;Master","left","middle","","","-1","-1","0","normal","#d6d6ce","#cccccc","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","evidence_type_master.jsp","_self","Arial","8pt","#000000","bold","normal","none","Arial","9pt","#ffffff","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","evidence_type_master.jsp","xp3.gif","xp3.gif","tiled","tiled");
+appendSTMI("false","Evidence&nbsp;Master","left","middle","","","-1","-1","0","normal","#d6d6ce","#cccccc","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","evidence_master.jsp","_self","Arial","9pt","#000000","normal","normal","none","Arial","9pt","#ffffff","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","evidence_master.jsp","xp3.gif","xp3.gif","tiled","tiled");
+endSTMB();
+appendSTMI("false","CHARGESHEET","left","middle","","","-1","-1","0","normal","#d6d6ce","#000084","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","","_self","Arial","9pt","#000000","normal","normal","none","Arial","9pt","#ffffff","normal","normal","none","0","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","","xp3.gif","blank.gif","tiled","tiled");
+beginSTMB("auto","0","0","vertically","arrow_r.gif","0","0","0","3","#ffffff","","tiled","#000000","1","solid","0","Normal","50","0","0","0","0","0","0","0","#7f7f7f","false","#000000","#000000","#000000","none");
+appendSTMI("false","Crime&nbsp;Charge&nbsp;Sheet&nbsp;Master","left","middle","","","-1","-1","0","normal","#d6d6ce","#cccccc","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","crime_chargesheet_master.jsp","_self","Arial","9pt","#000000","normal","normal","none","Arial","8pt","#ffffff","bold","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","crime_chargesheet_master.jsp","xp3.gif","xp3.gif","tiled","tiled");
+endSTMB();
+appendSTMI("false","SECURITY","left","middle","","","-1","-1","0","normal","#d6d6ce","#cccccc","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","","_self","Arial","8pt","#000000","bold","normal","none","Arial","9pt","#ffffff","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","","xp3.gif","xp3.gif","tiled","tiled");
+beginSTMB("auto","0","0","vertically","arrow_r.gif","0","0","0","3","#ffffff","","tiled","#000000","1","solid","0","Normal","50","0","0","0","0","0","0","0","#7f7f7f","false","#000000","#000000","#000000","none");
+appendSTMI("false","Login&nbsp;Master","left","middle","","","-1","-1","0","normal","#d6d6ce","#cccccc","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","login_master.jsp","_self","Arial","9pt","#000000","normal","normal","none","Arial","9pt","#ffffff","normal","normal","none","0","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","login_master.jsp","blank.gif","xp3.gif","tiled","tiled");
+endSTMB();
+appendSTMI("false","HOMEPAGE","left","middle","","","-1","-1","0","normal","#d6d6ce","#cccccc","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","adminzone.jsp","_self","Arial","8pt","#000000","bold","normal","none","Arial","9pt","#ffffff","normal","normal","none","0","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","adminzone.jsp","xp3.gif","xp3.gif","tiled","tiled");
+appendSTMI("false","LOGOUT","left","middle","","","-1","-1","0","normal","#d6d6ce","#cccccc","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","index.jsp","_self","Arial","8pt","#000000","bold","normal","none","Arial","8pt","#ffffff","bold","normal","none","0","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","index.jsp","xp3.gif","xp3.gif","tiled","tiled");
+endSTMB();
+endSTM();
+//-->
+</script>
+===== Segment End =====
+========== HTML Part End ==========
+

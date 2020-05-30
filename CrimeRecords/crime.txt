@@ -1,0 +1,103 @@
+			Crime Recorder Managment System
+			-----------------------------------------------------
+
+
+1)  create table designation_master(designation_id varchar2(10) constraint d_id_pk primary key,
+     designation_name varchar2(30),description varchar2(30));
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2)  create table victimes_master(victim_id varchar2(10) constraint v_id_pk primary key,
+     victime_name varchar2(30),
+     dno varchar2(10),street varchar2(20),city varchar2(20),state varchar2(20),country varchar2(20),
+     pin number(10),phone_no number(16),date_of_birth date,mail_id varchar2(30),
+     other_details varchar2(30),victim_registrant_date date);
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3)   create table crime_category_master(crime_category_id varchar2(10) constraint c_c_pk primary key,
+      crime_category_name varchar2(30),description varchar2(40));
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4)  create table evidence_type_master(evidence_id varchar2(10) constraint e_y_pk primary key,
+     evidence_name varchar2(30),description varchar2(40));
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5)  create table territory_master(territory_id varchar2(10) primary key,
+     territory_name varchar2(30),description varchar2(30));
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6)  create table department_master(department_no varchar2(10) constraint d_no_pk primary key,
+     department_name varchar2(30),description varchar2(30),highest_desg_id varchar2(10)
+     constraint h_des_id_fk references designation_master(designation_id) on delete cascade);
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+7)  create table police_station_master(police_station_id  varchar2(10)  primary key,
+      police_sation_name varchar2(30),
+      police_teritory_id varchar2(10) constraint p_t_id_fk1 references territory_master(territory_id) on delete cascade,
+      police_starting_date date,  
+      incharge_id varchar2(10) constraint i_id_fk2 references department_employees_master(employee_no) on delete cascade,    
+      dno varchar2(10),street varchar2(20),city varchar2(20),state varchar2(20),country varchar2(20),  
+       pin number(10),
+      phone number(16),
+      fax_no number(16),
+      email_id varchar2(30));
+ 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+8)   create table department_employees_master(employee_no varchar2(10) primary key,
+       employee_name varchar2(30),
+        designation_id varchar2(10) constraint desg_id_fk2 references designation_master(designation_id) on delete cascade,
+       department_no varchar2(10)constraint dept_no_pk3 references department_master(department_no) on delete cascade,
+       date_of_birth date,date_of_join date,
+       dno varchar2(10),street varchar2(20),city varchar2(20),state varchar2(20),country varchar2(20),
+       pin number(10),
+       phone number(16),email_id varchar2(40));
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+9)  create table crime_category_nature_master(nature_id varchar2(10) primary key,
+       category_id varchar2(10)constraint c_id_fk references crime_category_master (crime_category_id) on delete cascade,
+       crime_name varchar2(30),
+       description varchar2(4));
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+10)   create table victims_fir_master(fir_no varchar2(10) primary key,
+       crime_nature_id varchar2(10) constraint c_n_id_fk1 references crime_category_nature_master(nature_id) on delete cascade,
+       address varchar2(30),details varchar2(30),fir_registration_date date,victim_id varchar2(10) constraint v_id_fk3 references victimes_master(victim_id) on delete cascade,
+       investigation_officer_id varchar2(10)constraint i_i_o_id_fk4 references investigation_master(investigation_id) on delete cascade,
+       crime_date date);
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+11)  create table investigation_master(investigation_id varchar2(10) primary key,
+       start_date date,
+       end_date date);
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+12)  create table cirme_seq_estimation_master(sequence_id varchar2(10)primary key,
+	fir_no varchar2(10) constraint f_no_fk1 references victims_fir_master(fir_no) on delete cascade,
+	sequence_order_no number(6), description varchar2(40));
+--------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------
+13)  create table crime_witness_master(witness_id varchar2(10) primary key,
+       fir_no varchar2(10) constraint fi_no_fk2 references victims_fir_master(fir_no) on delete cascade,
+       witness_collected_date date,
+       witness_information varchar2(40));
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+14)   create table crime_chargesheet_master(charge_sheet_no varchar2(10) primary key,
+        charge_sheet_date date,charge_sheet_details varchar2(30),
+        fir_no varchar2(10) constraint fi_n_fk2 references victims_fir_master(fir_no) on delete cascade,
+       produced_court_name varchar2(30),charge_sheet_filed_by varchar2(30));
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+15)  create table login_master(login_user_name varchar2(10) primary key,
+       profile_id varchar2(10),
+       employee_no varchar2(10) constraint e_no_fk1 references department_employees_master(employee_no) on delete cascade,
+       login_old_pw varchar2(30),login_current_pw varchar2(30),
+       login_change_date date); 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+16)  create table evidence_master(evidence_id varchar2(10) constraint e1_y1_pk primary key,
+       investigation_id varchar2(15)  constraint inv_no1_fk1 references  investigation_master(investigation_id) on delete cascade,
+       evidence_type_id varchar2(15) constraint evetype_no_fk1 references evidence_type_master(evidence_id) on delete cascade,
+       evidence_collected_date  date);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

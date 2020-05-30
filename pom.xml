@@ -51,7 +51,7 @@
 	  </execution>
 	</executions>
 	<configuration>
-	  <mainClass>connection.DataCon</mainClass>
+	  <mainClass>DataCon</mainClass>
 	  <arguments>
 	    <argument>argument1</argument>
 	  </arguments>
@@ -71,7 +71,7 @@
 	    <configuration>
 	      <transformers>
 		<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-		  <mainClass>connection.DataCon</mainClass>
+		  <mainClass>DataCon</mainClass>
 		</transformer>
 	      </transformers>
 	    </configuration>
@@ -113,7 +113,7 @@
   <artifactId>maven-war-plugin</artifactId>
   <version>3.2.3</version>
   <configuration>
-    <webXml>e-care\WEB-INF\web.xml</webXml>        
+    <webXml>CrimeRecords\WEB-INF\web.xml</webXml>        
   </configuration>
 </plugin>
     </plugins>
